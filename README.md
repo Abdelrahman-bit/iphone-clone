@@ -4,8 +4,6 @@ A stunning iPhone website clone built with **Next.js**, **Tailwind CSS**, **Type
 
 🚀 **Live Demo:** [https://iphone-clone-rosy.vercel.app/](https://iphone-clone-rosy.vercel.app/)
 
-![Demo Screenshot](https://user-images.githubusercontent.com/your-image-placeholder/demo-screenshot.png)
-
 ---
 
 ## ✨ Features
