@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 iPhone Website Clone
 
-## Getting Started
+A stunning iPhone website clone built with **Next.js**, **Tailwind CSS**, **TypeScript**, **Three.js**, **React Three Fiber**, and **GSAP**. This project replicates the clean design, elegant animations, and modern sections inspired by Apple’s official product pages.
 
-First, run the development server:
+🚀 **Live Demo:** [https://iphone-clone-rosy.vercel.app/](https://iphone-clone-rosy.vercel.app/)
+
+![Demo Screenshot](https://user-images.githubusercontent.com/your-image-placeholder/demo-screenshot.png)
+
+---
+
+## ✨ Features
+
+- ⚙️ **Next.js 15** – App router & optimized performance
+- 💨 **Tailwind CSS** – Utility-first modern styling
+- 💻 **TypeScript** – Strong typing for better development experience
+- 🎨 **Three.js & React Three Fiber** – 3D iPhone model rendering
+- 🧠 **GSAP** – Smooth scroll-based and timeline animations
+- 📱 **Responsive Design** – Fully mobile-friendly layout
+- 🧼 **Clean Codebase** – Easy to read and extend
+
+---
+
+## 🛠️ Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/)
+- [Three.js](https://threejs.org/)
+- [GSAP](https://gsap.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+- Node.js >= 16.x
+- pnpm / yarn / npm
+
+### Installation
 
 ```bash
-npm run dev
+git clone https://github.com/your-username/iphone-clone.git
+cd iphone-clone
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+yarn install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎯 Goals
+This project was built to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Practice advanced animation and 3D rendering
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Recreate a professional-grade landing page experience
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Enhance skills in Next.js, React Three Fiber, and GSAP
