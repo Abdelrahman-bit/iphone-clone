@@ -44,7 +44,7 @@ cd iphone-clone
 npm install
 # or
 yarn install
-
+```
 🎯 Goals
 This project was built to:
 
