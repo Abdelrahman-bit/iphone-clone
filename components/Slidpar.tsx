@@ -73,13 +73,13 @@ const Slider = () => {
 	// }, [inView]);
 
 	return (
-		<div ref={sectionRef} className='relative w-full z-100'>
+		<div ref={sectionRef} className='relative w-full z-100 overflow-x-hidden'>
 			<div
 				className='flex transition-transform duration-1000 ease-in-out '
 				style={{ transform: `translateX(-${currentIndex * 100}%)` }}
 			>
 				{hightlightsSlides.map((item, index) => (
-					<div key={item.id} className='w-full flex-shrink-0 pl-8 md:pl-20 lg:pl-35 '>
+					<div key={item.id} className='w-full flex-shrink-0 pl-6 md:pl-20 lg:pl-35 '>
 						<div className='relative flex sm:w-[80vw] w-[80vw] md:h-[70vh] sm:h-[50vh] h-[35vh]'>
 							<div className='w-full h-full flex rounded-3xl overflow-hidden bg-black'>
 								<video

@@ -28,8 +28,8 @@ const Highlight = () => {
         <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row justify-between items-center w-full p-3 ">
             <p id="highlights" className="text-gray-400 text-3xl translate-y-20 opacity-0">Get the highlights</p>
             <div id="link" className="flex gap-8">
-                <p className="flex gap-3 text-blue-400 text-xl opacity-0 translate-y-20 ">Watch the film <img src={watchImg} alt="Film Highlight" /> </p>
-                <p className="flex gap-3 text-blue-400 text-xl opacity-0 translate-y-20 ">Watch the event <img src={rightImg} alt="Event Highlight" /> </p>
+                <p className="flex gap-3 text-blue-400 text-sm lg:text-xl opacity-0 translate-y-20 ">Watch the film <img src={watchImg} alt="Film Highlight" /> </p>
+                <p className="flex gap-3 text-blue-400 text-sm lg:text-xl opacity-0 translate-y-20 ">Watch the event <img src={rightImg} alt="Event Highlight" /> </p>
             </div>
         </div>
         <Slider />

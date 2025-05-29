@@ -27,9 +27,9 @@ const Model = () => {
 	}, [active]);
 	
 	return (
-		<section className='w-full h-[90dvh] flex justify-center items-center'>
-			<div className='flex flex-col items-center mt-5 w-screen h-screen'>
-				<div className='w-full h-[75vh] md:h-[90vh] overflow-hidden relative'>
+		<section className='w-full h-[90dvh] flex justify-center items-centerl overflow-hidden relative'>
+			<div className='flex flex-col items-center mt-5 w-full  max-w-ful h-screen'>
+				<div className='w-full h-[55vh] md:h-[90vh] overflow-hidden relative'>
 					<ModelView gsapType='view1' index={1} controlRef={controlSmall} />
 					<ModelView gsapType='view2' index={2} controlRef={controlLarge} />
 					<Canvas
@@ -41,7 +41,6 @@ const Model = () => {
 							left: 0,
 							right: 0,
 							overflow: "hidden",
-							// border: "2px solid red",
 						}}
 					>
 						<View.Port />

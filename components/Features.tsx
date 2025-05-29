@@ -40,7 +40,7 @@ const Features = () => {
 				</div>
 
 				<div className='flex flex-col justify-center items-center overflow-hidden'>
-					<div className='mt-32 mb-24 pl-24'>
+					<div className='mt-32 mb-24 px-5 md:px-24'>
 						<h2 className='text-5xl lg:text-7xl font-semibold'>iPhone.</h2>
 						<h2 className='text-5xl lg:text-7xl font-semibold'>Forged in titanium.</h2>
 					</div>
@@ -62,18 +62,18 @@ const Features = () => {
 
 						<div className='flex flex-col w-full relative'>
 							<div className=' w-full flex flex-col md:flex-row gap-5 items-center'>
-								<div className='overflow-hidden flex-1 h-[50vh]'>
+								<div className='overflow-hidden max-w-full flex-1 h-[50vh]'>
 									<img
 										src={explore1Img}
 										alt='titanium'
-										className='w-full h-full object-cover object-center scale-150 opacity-0 g_grow'
+										className='w-full h-full object-cover object-center scale-60 md:scale-100 opacity-0 g_grow'
 									/>
 								</div>
 								<div className='overflow-hidden flex-1 h-[50vh]'>
 									<img
 										src={explore2Img}
 										alt='titanium 2'
-										className='w-full h-full object-cover object-center scale-150 opacity-0 g_grow'
+										className='w-full h-full object-cover object-center scale-60 md:scale-100 opacity-0 g_grow'
 									/>
 								</div>
 							</div>

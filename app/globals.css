@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+*, *::before, *::after {
+	box-sizing: border-box;
+  }
+
 body {
 	color: white;
 	width: 100vw;
@@ -10,9 +14,9 @@ body {
 	user-select: none;
 }
 
-canvas {
+/* canvas {
 	touch-action: none;
-}
+} */
 
 .screen-max-width {
 	margin-inline-start: auto;

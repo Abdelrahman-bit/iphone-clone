@@ -31,7 +31,7 @@ const HowItWorks = () => {
 	}, []);
 
 	return (
-		<section className='sm:py-32 py-20 sm:px-10 px-5'>
+		<section className='sm:py-32 py-20 sm:px-10 px-5 overflow-x-hidden'>
 			<div className='screen-max-width'>
 				<div id='chip' className='flex items-center justify-center w-full my-20'>
 					<img src={chipImg} alt='chip' width={180} height={180} />
